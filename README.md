@@ -15,23 +15,23 @@ After running the code, it automatically creates a folder by the name of "coeffi
 are printed as functions of the temperature in 30 < T < 800 MeV range, also we get the first and second order derivatives 
 with respect to the temperature. Then a folder named "thermodynamics" is created which contain many files, namely :
 
-    - "EoS_Taylor_AllMu.dat" : In this file all the thermodynamic quantities are calculated on the whole
+  "EoS_Taylor_AllMu.dat" : In this file all the thermodynamic quantities are calculated on the whole
     4D computational grid. All these thermodynamic quantities are Temperature , Baryonic chemical potential, Electric
     charge chemical potential , Strangeness Chemical potential, pressure, entropy, density, Baryon density,
     Strangeness density, charge density, energy density and speed of sound, in that order.
 
-    - "AllTherm_No_QS_Taylor.dat" : In this file all the thermodynamic quantities are calculated on a 2D computational
+  "AllTherm_No_QS_Taylor.dat" : In this file all the thermodynamic quantities are calculated on a 2D computational
     grid, rather than a 4D one in the previous case. The 2D being Temperature and Baryonic chemical potential. Here
     we take the assumption of Electric charge chemical potential and Strangeness Chemical Potential to be vanishing.
     It also prints the same thermodynamic quantities as above and in the same order.
 
-    - "AllTherm_StrNeutr_muBTConst_Taylor.dat" : In this file the thermodynamic quantities are calculated for the
+  "AllTherm_StrNeutr_muBTConst_Taylor.dat" : In this file the thermodynamic quantities are calculated for the
     T = 30 to 800 MeV range, having a constant values for mu_B/T. These values are {0.5,1,1.5,2,2.5,3} and also considers
     the case of Strangeness neutraility. It gives us mu_B/T,  Temperature , Baryonic chemical potential, Electric
     charge chemical potential , Strangeness Chemical potential, pressure, entropy, density, Baryon density,
     Strangeness density, charge density, energy density and speed of sound, in that order.
 
-    - "AllTherm_NoQS-muBTConst_Taylor.dat" : In this file, the thermodynamic quantities are calculated in the same range 
+  "AllTherm_NoQS-muBTConst_Taylor.dat" : In this file, the thermodynamic quantities are calculated in the same range 
     as above, and also among the constant values of mu_B/T , but here we consider the case of Charge chemical potential and Strangeness 
     chemical potential to be zero. It also gives us the same value as above, and in the same order.
 
