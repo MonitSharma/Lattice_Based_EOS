@@ -44,7 +44,7 @@ mkdir() and chdir() to make and change directory in between of compilation of co
 Since a make file is already there, the code can be simply run by:
 
 ```bash
- make ./EoS_BQS coefficients.dat" 
+ make ./EoS_BQS coefficients.dat
  ```
 
 
