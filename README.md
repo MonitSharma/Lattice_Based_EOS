@@ -56,4 +56,4 @@ where the EoS_BQS is the make file and the coefficients.dat is the data file con
 
  Original code of the paper can be found from the paper : https://inspirehep.net/record/1720588
  This work should be cited whenever using the code.
- I changed and modified the code for my Thesis work.
+ I changed and modified the code for my Thesis work. In the reference I added some papers and work I read for the work.
