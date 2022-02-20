@@ -42,11 +42,13 @@ The code is written in C and it requires basic C libraries to run like the <stdi
 mkdir() and chdir() to make and change directory in between of compilation of code.
 
 Since a make file is already there, the code can be simply run by:
- ```bash
- make ./EoS_BQS coefficients.dat" 
- ```bash
 
- where the EoS_BQS is the make file and the coefficients.dat is the data file contain the lattice coefficients.
+```bash
+ make ./EoS_BQS coefficients.dat" 
+ ```
+
+
+where the EoS_BQS is the make file and the coefficients.dat is the data file contain the lattice coefficients.
 
 
  This is an implementation of the paper "Lattice-based Equation of State at finite Baryon number, Electric charge
