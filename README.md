@@ -20,7 +20,7 @@ with respect to the temperature. Then a folder named "thermodynamics" is created
     charge chemical potential , Strangeness Chemical potential, pressure, entropy, density, Baryon density,
     Strangeness density, charge density, energy density and speed of sound, in that order.
 
-    - "AllTherm_No_QS_Taylor.dat" : In this file all the thermodynamic quantitie are calculated on a 2D computational
+    - "AllTherm_No_QS_Taylor.dat" : In this file all the thermodynamic quantities are calculated on a 2D computational
     grid, rather than a 4D one in the previous case. The 2D being Temperature and Baryonic chemical potential. Here
     we take the assumption of Electric charge chemical potential and Strangeness Chemical Potential to be vanishing.
     It also prints the same thermodynamic quantities as above and in the same order.
@@ -44,7 +44,8 @@ mkdir() and chdir() to make and change directory in between of compilation of co
 Since a make file is already there, the code can be simply run by:
 
 ```bash
- make ./EoS_BQS coefficients.dat
+ make
+ ./EoS_BQS coefficients.dat
  ```
 
 
