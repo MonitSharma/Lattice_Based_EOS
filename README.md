@@ -1,5 +1,5 @@
 ## Equation of State with Baryon Number, Electric charge and Strangeness Chemical Potential
-
+## Lattice Based QCD
 Quantum Chromodynamics Equation of State using all three conserved quantities of Baryon number, Electric charge and
 Strangeness Chemical Potential.
 
